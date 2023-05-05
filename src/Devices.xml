@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<devices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="Devices.xsd">
+
+    <device id ="1">
+        <name>video card</name>
+        <origin>Mexico</origin>
+        <price>100</price>
+        <type>
+            <isPeripheral>true</isPeripheral>
+            <energy>1</energy>
+            <hasCooler>true</hasCooler>
+            <componentGroup>multimedia</componentGroup>
+            <port>usb</port>
+        </type>
+    </device>
+
+    <device id ="2">
+        <name>processor</name>
+        <origin>USA</origin>
+        <price>200</price>
+        <type>
+            <isPeripheral>true</isPeripheral>
+            <energy>2</energy>
+            <hasCooler>false</hasCooler>
+            <componentGroup>multimedia</componentGroup>
+            <port>com</port>
+        </type>
+    </device>
+
+    <device id ="3">
+        <name>flash</name>
+        <origin>Belarus</origin>
+        <price>50</price>
+        <type>
+            <isPeripheral>false</isPeripheral>
+            <energy>0</energy>
+            <hasCooler>false</hasCooler>
+            <componentGroup>data</componentGroup>
+            <port>usb</port>
+        </type>
+    </device>
+
+</devices>

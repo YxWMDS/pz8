@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="devices">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="device" type="device" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="device">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="origin" type="xs:string" />
+            <xs:element name="price" type="xs:integer" />
+            <xs:element name="type">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="isPeripheral" type="xs:boolean" />
+                        <xs:element name="energy" type="xs:positiveInteger" />
+                        <xs:element name="hasCooler" type="xs:boolean" />
+                        <xs:element name="componentGroup" type="xs:string" />
+                        <xs:element name="port" type="xs:string" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" />
+    </xs:complexType>
+
+</xs:schema>

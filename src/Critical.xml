@@ -1,0 +1,71 @@
+<devices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <origin name="Mexico">
+                
+        <name>video card</name>
+                
+        
+        <price>100</price>
+                
+        <type>
+                        
+            <isPeripheral>true</isPeripheral>
+                        
+            <energy>1</energy>
+                        
+            <hasCooler>true</hasCooler>
+                        
+            <componentGroup>multimedia</componentGroup>
+                        
+            <port>usb</port>
+                    
+        </type>
+            
+        <id>1</id>
+    </origin>
+    <origin name="USA">
+                
+        <name>processor</name>
+                
+        
+        <price>200</price>
+                
+        <type>
+                        
+            <isPeripheral>true</isPeripheral>
+                        
+            <energy>2</energy>
+                        
+            <hasCooler>false</hasCooler>
+                        
+            <componentGroup>multimedia</componentGroup>
+                        
+            <port>com</port>
+                    
+        </type>
+            
+        <id>2</id>
+    </origin>
+    <origin name="Belarus">
+                
+        <name>flash</name>
+                
+        
+        <price>50</price>
+                
+        <type>
+                        
+            <isPeripheral>false</isPeripheral>
+                        
+            <energy>0</energy>
+                        
+            <hasCooler>false</hasCooler>
+                        
+            <componentGroup>data</componentGroup>
+                        
+            <port>usb</port>
+                    
+        </type>
+            
+        <id>3</id>
+    </origin>
+</devices>
